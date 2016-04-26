@@ -24,9 +24,9 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
+                    <span class="glyphicons glyphicons-imac"><a href="#">
                         Daimler App
-                    </a>
+                    </a></span>
                 </li>
                 <?php
                 include "menu.php";
