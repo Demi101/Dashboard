@@ -25,7 +25,8 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        <img src="img/computer.png" style="width: 25px;">      Daimler App
+                        <span class="fa fa-desktop" style="color: #57971f;"></span>
+                          Daimler App 
                     </a>
                 </li>
                 <?php

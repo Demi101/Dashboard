@@ -12,6 +12,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -25,7 +26,8 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        <img src="img/computer.png" style="width: 25px;">      Daimler App
+                        <span class="fa fa-desktop" style="color: #57971f;"></span>
+                          Daimler App 
                     </a>
                 </li>
                 <?php
