@@ -38,11 +38,26 @@
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
+        
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                    <h1>Dit is text</h1>
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th style="text-align: center;"><i class="fa fa-car" aria-hidden="true" style="color:#57971f;"></i> Type auto</th>
+                                <th style="text-align: center;"><i class="fa fa-eur" aria-hidden="true" style="color:#57971f;"></i> Bedrag per maand</th>
+                                <th style="text-align: center;"><i class="fa fa-calendar" aria-hidden="true" style="color:#57971f;"></i> Start datum</th>
+                                <th style="text-align: center;"> <i class="fa fa-user" aria-hidden="true" style="color:#57971f;"></i> Medewerker</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bedrag per maand</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     </div>
                 </div>
             </div>

@@ -47,6 +47,10 @@
                     <h1>Dit is text</h1>
                     </div>
 
+                    <section class="overzicht col-lg-4">
+
+                    </section>
+
                     <section class="modules col-lg-4">
                         <input type="checkbox" id="switch1" class="switch" aria-hidden="false"><label for="switch1" class="switch-label">Checkbox Label</label><p>Zwangerschap</p><br>
                         <input type="checkbox" id="switch2" class="switch" aria-hidden="false"><label for="switch2" class="switch-label">Checkbox Label</label><p>Vakantie</p><br>
