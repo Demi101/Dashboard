@@ -25,29 +25,26 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Start Bootstrap
+                        Daimler App
                     </a>
                 </li>
                 <li>
                     <a href="#">Dashboard</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#">Tabel</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="#">Lokatie</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#">Instellingen</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Help</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Log Uit</a>
                 </li>
             </ul>
         </div>
