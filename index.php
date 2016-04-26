@@ -12,6 +12,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -24,8 +25,9 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <span class="glyphicons glyphicons-imac"></span><a href="#">
-                        Daimler App
+                    <a href="#">
+                    	<span class="fa fa-desktop" style="color: #999999; margin:10px;"></span>
+                    	Daimler App 
                     </a>
                 </li>
                 <?php
