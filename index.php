@@ -18,6 +18,7 @@
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/modules.js"></script>
 
 	</head>
 	<body>
@@ -47,6 +48,10 @@
                     <h1>Dit is text</h1>
                     </div>
 
+                    <section class="kalender col-lg-4">
+
+                    </section>
+
                     <section class="overzicht col-lg-4">
 
                     </section>
@@ -56,6 +61,10 @@
                         <input type="checkbox" id="switch2" class="switch" aria-hidden="false"><label for="switch2" class="switch-label">Checkbox Label</label><p>Vakantie</p><br>
                         <input type="checkbox" id="switch3" class="switch" aria-hidden="false"><label for="switch3" class="switch-label">Checkbox Label</label><p>Verhuizen</p><br>
                         <input type="checkbox" id="switch4" class="switch" aria-hidden="false"><label for="switch4" class="switch-label">Checkbox Label</label><p>Carriere Groei</p>
+                    </section>
+
+                    <section class="berichten col-lg-4">
+
                     </section>
                         
                 </div>
