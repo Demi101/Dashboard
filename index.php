@@ -25,9 +25,14 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
+<<<<<<< HEAD
                     <a href="#">
                     	<span class="fa fa-desktop" style="color: #999999; margin:10px;"></span>
                     	Daimler App 
+=======
+                    <span class="glyphicons glyphicons-imac"></span><a href="#">
+                        <img src="img/computer.png" style="width: 25px;">      Daimler App
+>>>>>>> origin/master
                     </a>
                 </li>
                 <?php
