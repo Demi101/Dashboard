@@ -25,7 +25,7 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <span class="glyphicons glyphicons-imac"></span><a href="#">
-                        Daimler App
+                        <img src="img/computer.png" style="width: 25px;">      Daimler App
                     </a>
                 </li>
                 <?php
