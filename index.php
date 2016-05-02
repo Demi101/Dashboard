@@ -14,6 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -44,16 +45,14 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12">
-                    <h1>Dit is text</h1>
-                    </div>
 
                     <section class="kalender col-lg-4">
 
                     </section>
 
                     <section class="overzicht col-lg-4">
-
+						<div class="container" style="margin:150px auto;">
+						  <div class="GaugeMeter" id="PreviewGaugeMeter_1" data-percent="60" data-prepend="<font style='color:#272735;font-size:35px;margin-left:-15px'></font>" data-size="188" data-theme="White" data-back="#272735" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="2" data-label="Years" data-label_color="#272735"></div>
                     </section>
 
                     <section class="modules col-lg-4">
@@ -87,6 +86,23 @@
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
+
+    var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36251023-1']);
+	  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
     </script>
 	</body>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+	<script src="js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script> 
+	<script>
+$(".GaugeMeter").gaugeMeter();
+</script>
 </html>
