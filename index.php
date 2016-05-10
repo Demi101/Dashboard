@@ -42,6 +42,7 @@
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
+        <div class="main-bar-top"></div>
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
@@ -50,12 +51,16 @@
 
                     </section>
 
-                    <section class="overzicht col-lg-4">
-						<div class="container" style="margin:150px auto;">
-						  <div class="GaugeMeter" id="PreviewGaugeMeter_1" data-percent="60" data-prepend="<font style='color:#272735;font-size:35px;margin-left:-15px'></font>" data-size="188" data-theme="White" data-back="#272735" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="2" data-label="Years" data-label_color="#272735"></div>
+                    <section class="overzicht col-lg-4" style="height: 300px; float: right!important;">
+						<div class="container">
+						  <div class="GaugeMeter" id="PreviewGaugeMeter_1" data-percent="34" data-prepend="<font style='color:#26d1d3;font-size:35px;margin-left:-15px'></font>" data-size="188" data-theme="#26d1d3" data-back="white" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="2" data-label="Benzine" data-label_color="#2c94e0">
+                          </div>
+                          <div class="GaugeMeter" id="PreviewGaugeMeter_2" data-percent="60" data-prepend="<font style='color:#ed5a72;font-size:35px;margin-left:-15px'></font>" data-size="188" data-theme="#ed5a72" data-back="white" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="2" data-label="Kilometer" data-label_color="#ed5a72">
+                          </div>
+                        </div>
                     </section>
 
-                    <section class="modules col-lg-4">
+                    <section class="modules col-lg-4" >
                         <input type="checkbox" id="switch1" class="switch" aria-hidden="false" onClick="Modules();"><label for="switch1" class="switch-label">Checkbox Label</label><p>Zwangerschap</p><br>
                         <input type="checkbox" id="switch2" class="switch" aria-hidden="false"><label for="switch2" class="switch-label">Checkbox Label</label><p>Vakantie</p><br>
                         <input type="checkbox" id="switch3" class="switch" aria-hidden="false"><label for="switch3" class="switch-label">Checkbox Label</label><p>Verhuizen</p><br>
