@@ -42,7 +42,11 @@
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div class="main-bar-top"></div>
+        <div class="main-bar-top">
+              <form style="padding-top: 30px; float: right;">
+                  <input value="Zoeken"><span class="glyphicon glyphicon-bell"></span><span class="glyphicon glyphicon-envelope" style="color:#272735"></span></input>
+              </form>
+        </div>
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
@@ -60,17 +64,18 @@
                         </div>
                     </section>
 
+                    <section class="berichten col-lg-4">
+
+                    </section>
+                        
+                </div>
+                <div class="row">
                     <section class="modules col-lg-4" >
                         <input type="checkbox" id="switch1" class="switch" aria-hidden="false" onClick="Modules();"><label for="switch1" class="switch-label">Checkbox Label</label><p>Zwangerschap</p><br>
                         <input type="checkbox" id="switch2" class="switch" aria-hidden="false"><label for="switch2" class="switch-label">Checkbox Label</label><p>Vakantie</p><br>
                         <input type="checkbox" id="switch3" class="switch" aria-hidden="false"><label for="switch3" class="switch-label">Checkbox Label</label><p>Verhuizen</p><br>
                         <input type="checkbox" id="switch4" class="switch" aria-hidden="false"><label for="switch4" class="switch-label">Checkbox Label</label><p>Carriere Groei</p>
                     </section>
-
-                    <section class="berichten col-lg-4">
-
-                    </section>
-                        
                 </div>
             </div>
         </div>
