@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="">
-	<head>
+<html lang="eng">
+	<head >
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
     <title>Dashboard | Daimler</title>
 
@@ -20,9 +21,10 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="js/modules.js"></script>
+    <script type="text/javascript" src="js/weer.js"></script>
 
 	</head>
-	<body>
+	<body style="overflow-x:hidden;">
     <div id="wrapper">
 
         <!-- Sidebar -->
@@ -37,6 +39,9 @@
                 <?php
                 include "menu.php";
                 ?>
+                <hr>
+                <p id="TimeDate"></p>
+                <hr>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -109,6 +114,12 @@
 	  })();
 
     </script>
+
+    <script>
+    var d = new Date();
+    document.getElementById("TimeDate").innerHTML = d.toUTCString();
+    </script>
+
 	</body>
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
 	<script src="js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script> 

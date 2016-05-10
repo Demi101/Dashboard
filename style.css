@@ -14,12 +14,26 @@
   background-color: #e9ecf1;
 }
 
+#TimeDate{
+  color: #999999;
+      margin-left: 40px;
+    margin-right: 20px;
+}
+
+hr{
+  border-top: solid 1px #4C4C4C!important;
+}
+
 .modules p {
   display: inline;
   margin-left: 80px;
 }
 .switch {
   display: none;
+}
+
+.sidebar-nav li:hover{
+  background-color: #57971f;
 }
 
 .GaugeMeter {
@@ -128,5 +142,10 @@
   background: #bbbbbb;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
+
+
+
+
+
 
 
