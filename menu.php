@@ -15,6 +15,9 @@
 	    <a href="help.php"><span class="fa fa-comments-o"></span>Help</a>
 	</li>
 	<li>
-	    <a href="loguit.php"><span class="fa fa-power-off" style="color: #999999; margin-right:5px;"></span>Log Uit</a>
+	    <a href="loguit.php"><span class="fa fa-power-off"></span>Log Uit</a>
 	</li>
+
 </div>
+
+<script src="js/menu.js"></script>
