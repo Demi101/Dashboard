@@ -1,3 +1,11 @@
+body{
+  font-family: 'PT Sans', sans-serif!important;
+}
+
+p{
+  font-family: 'PT Sans', sans-serif!important;
+}
+
 .overzicht {
   background: #fcfcfc;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -6,6 +14,36 @@
 .modules {
   background: #fcfcfc;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.personal{
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+.titel{
+  font-size: 22px;
+    position: absolute;
+    top: 30px;
+    margin-left: 85px;
+  font-family: 'PT Sans', sans-serif!important;
+}
+.titel-2{
+  font-size: 12px;
+    position: absolute;
+    top: 60px;
+    margin-left: 85px;
+  font-family: 'PT Sans', sans-serif!important;
+  opacity: .5;
+}
+
+.menu-icon{
+width: 30px;
+    opacity: .5;
+    top: 30px;
+    position: absolute;
+    margin-left: 30px;
 }
 
 .main-bar-top{
