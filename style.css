@@ -1,3 +1,4 @@
+/* Algemeen */
 body{
   font-family: 'PT Sans', sans-serif!important;
 }
@@ -6,6 +7,22 @@ p{
   font-family: 'PT Sans', sans-serif!important;
 }
 
+/* Navigatie */
+.nav li a{
+  color: #999999;
+  margin-right: 5px;
+}
+
+.nav li a span{
+  margin-right: 8px;
+}
+
+.nav li a.active{
+  background-color: #57971f;
+  color: white;
+}
+
+/* Content */
 .overzicht {
   background: #fcfcfc;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.04);

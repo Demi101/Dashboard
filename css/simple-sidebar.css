@@ -70,14 +70,10 @@
     color: #999999;
 }
 
-.sidebar-nav li:hover{
-    color:#57971f;
-}
-
 .sidebar-nav li a:hover {
-    text-decoration: none;
+    background-color: rgb(87, 151, 31);
     color: #fff;
-    background: rgba(255,255,255,0.2);
+
 }
 
 .sidebar-nav li a:active,
