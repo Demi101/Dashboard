@@ -33,7 +33,7 @@
                 <li class="sidebar-brand">
                     <a href="index.php">
                     	<span class="fa fa-desktop" style="color: #57971f;"></span>
-                    	  Daimler Applicatie
+                    	  Daimler App
                     </a>
                 </li>
                 <?php
