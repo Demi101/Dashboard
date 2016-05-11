@@ -16,18 +16,27 @@
 
 </head>
 <body>
+	<h1 class="titleLogIn">Daimler App</h1>
 	<div class="login-page">
   		<div class="form">
-
+			<form class="register-form">
+		      <input type="text" placeholder="Gebruikersnaam"/>
+		      <input type="password" placeholder="Wachtwoord"/>
+		      <input type="text" placeholder="E-mailadres"/>
+		      <button>Registreer</button>
+		      <p class="message">Al geregistreerd? <a href="#">Log in.</a></p>
+		    </form>
 			<form class="login-form">
 		      <input type="text" placeholder="Gebruikersnaam"/>
 		      <input type="password" placeholder="Wachtwoord"/>
-		      <button>login</button>
+		      <button>Inloggen</button>
 		      <p class="message">Nog niet geregistreerd? <a href="#">Maak een account.</a></p>
 		    </form>
 
 		</div>
 	</div>
-
+<script type="text/javascript">$('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});</script>
 </body>
 </html>
