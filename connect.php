@@ -1,7 +1,7 @@
 <?php
-$servername = "www.lucdaalmeijer.nl";
-$username = "admin";
-$password = "Abcd_1234";
+$servername = "192.168.0.42";
+$username = "root";
+$password = "admin";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
