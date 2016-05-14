@@ -68,7 +68,34 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Bedrag per maand</td>
+                                <td>1.  BMW 5    DBB-44-H</td>
+                                <td>&#8364; 337.09</td>
+                                <td>15.06.2016</td>
+                                <td>Gorge M. Nicolson</td>
+                            </tr>
+                            <tr>
+                                <td>2.  VW Golf    DG-543-S</td>
+                                <td>&#8364; 158.26</td>
+                                <td>16.06.2016</td>
+                                <td>Artem N. Verovin</td>
+                            </tr>
+                            <tr>
+                                <td>3.  Audi A4    47-FZB-1</td>
+                                <td>&#8364; 209.13</td>
+                                <td>16.06.2016</td>
+                                <td>Gleb L. Smagin</td>
+                            </tr>
+                            <tr>
+                                <td>4.  Tesla S    D-614-XJ</td>
+                                <td>&#8364; 318.05</td>
+                                <td>16.06.2016</td>
+                                <td>Manish R. Zefoll</td>
+                            </tr>
+                            <tr>
+                                <td>5.  Renault Clio    81-LNZ-8</td>
+                                <td>&#8364; 180.12</td>
+                                <td>17.06.2016</td>
+                                <td>Jaco R. Dexer</td>
                             </tr>
                         </tbody>
                     </table>

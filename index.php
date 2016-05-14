@@ -61,13 +61,9 @@
 
                     </section>
 
-                    <section class="overzicht col-lg-6" style="height: 300px; float: right!important;">
-						<div class="container" style="padding-left: 20%; padding-top: 8%;">
-						  <div class="GaugeMeter" id="PreviewGaugeMeter_1" data-percent="34" data-prepend="<font style='color:#26d1d3;font-size:35px;margin-left:-15px'></font>" data-size="188" data-theme="#26d1d3" data-back="white" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="2" data-label="Benzine" data-label_color="#2c94e0">
-                          </div>
-                          <div class="GaugeMeter" id="PreviewGaugeMeter_2" data-percent="60" data-prepend="<font style='color:#ed5a72;font-size:35px;margin-left:-15px'></font>" data-size="188" data-theme="#ed5a72" data-back="white" data-animate_gauge_colors="1" data-animate_text_colors="1" data-width="2" data-label="Kilometer" data-label_color="#ed5a72">
-                          </div>
-                        </div>
+                    <!-- Meters -->
+                    <section class="overzicht  col-lg-6" style="display: -webkit-inline-box;height: 300px; float: right!important;">
+
                     </section>
 
                     <section class="berichten col-lg-6">
@@ -126,9 +122,4 @@
     </script>
 
 	</body>
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
-	<script src="js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script> 
-	<script>
-$(".GaugeMeter").gaugeMeter();
-</script>
 </html>
