@@ -96,6 +96,12 @@ p{
   display: none;
 }
 
+/* Uitloggen */
+.form h1{
+  color: white;
+  margin-top: -20px;
+}
+
 /* Content */
 .overzicht {
   background: #fcfcfc;
