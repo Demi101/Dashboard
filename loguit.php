@@ -1,6 +1,6 @@
 <?php
 
-// Start de sessie, verwijdert de sessievariabelen van de user en stopt de sessie.
+// Starts the session and unsets the user. Destroys the session so login is impossible.
 session_start();
 unset($_SESSION['id']);
 session_destroy();
