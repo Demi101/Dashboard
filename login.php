@@ -1,3 +1,21 @@
+<?php
+
+// Starts the session and connects to the database.
+session_start();
+require 'connect.php';
+
+// If REGISTER button is clicked, register user by saving filled in data.
+if(isset($_POST['register'])){
+
+}
+
+// If LOGIN button is clicked, login user by checking data or redirect to login page and give error.
+if(isset($_POST['login'])){
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,17 +37,17 @@
 	<h1 class="titleLogIn">Daimler App</h1>
 	<div class="login-page">
   		<div class="form">
-			<form class="register-form">
-		      <input type="text" placeholder="Gebruikersnaam"/>
-		      <input type="password" placeholder="Wachtwoord"/>
-		      <input type="text" placeholder="E-mailadres"/>
-		      <button>Registreer</button>
+			<form action="" method="post" class="register-form">
+		      <input name="username" type="text" placeholder="Gebruikersnaam"/>
+		      <input name="password" type="password" placeholder="Wachtwoord"/>
+		      <input name="email" type="email" placeholder="E-mailadres"/>
+		      <input name="register" type="submit" Value="Registreren" class="buttonsave">
 		      <p class="message">Al geregistreerd? <a href="#">Log in.</a></p>
 		    </form>
-			<form class="login-form">
+			<form action="" method="post" class="login-form">
 		      <input type="text" placeholder="Gebruikersnaam"/>
 		      <input type="password" placeholder="Wachtwoord"/>
-		      <button>Inloggen</button>
+		       <input name="login" type="submit" Value="Inloggen" class="buttonsave">
 		      <p class="message">Nog niet geregistreerd? <a href="#">Maak een account.</a></p>
 		    </form>
 
