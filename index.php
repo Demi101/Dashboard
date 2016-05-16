@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -77,6 +78,22 @@
 
                     <!-- Meters -->
                     <section class="overzicht  col-lg-6" style="display: -webkit-inline-box;height: 300px; float: right!important;">
+                    <div clas="clearfix" style="margin-left: auto; margin-right: auto; margin-top: 50px;">
+                        <div class="c100 p65">
+                            <span>65% <br> Benzine</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="c100 p35 orange" style="    margin-left: 75px;">
+                            <span>35% <br> Kilometer</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    </div>
 
                     </section>
 
