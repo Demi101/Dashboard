@@ -1,3 +1,17 @@
+<?php
+
+// // Start session and connect to database
+// session_start();
+// require 'connect.php';
+
+// // If session variable id not exists go to login.php
+// if(isset($_SESSION['id'])){
+// }else{
+//     header('Location: login.php');
+// }
+
+?>
+
 <!DOCTYPE html>
 <html lang="eng">
 	<head >
