@@ -239,6 +239,79 @@ hr{
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
+/*Calender*/
+
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+/*    padding: 70px 25px;*/
+    width: 100%;
+    background: #57971f;
+    margin-left: -3%;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+    width: 100%;
+    margin-left: -3%;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    margin: 0;
+    margin-left: -3%;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+    padding: 5px;
+}
+
+.days li:hover {
+   background-color:rgba(87,151,31,0.5);
+}
+
+
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #57971f;
+    color: white !important
+}
+
 
 
 
