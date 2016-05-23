@@ -67,21 +67,54 @@
                   zoom: 8
                 });
                 var infoWindow = new google.maps.InfoWindow({map: map});
-        
-                // Try HTML5 geolocation.
+				
+				//4 static locations as a placeholder
+				var location1 = new google.maps.LatLng(52.682395,6.184084);
+				var location2 = new google.maps.LatLng(51.808586,5.829868);
+				var location3 = new google.maps.LatLng(51.571984,5.077416);
+				var location4 = new google.maps.LatLng(51.545273,5.076176);
+				
+				var marker1=new google.maps.Marker({
+  				position:location1,
+  				});
+
+				marker1.setMap(map);
+				
+				var marker2=new google.maps.Marker({
+  				position:location2,
+  				});
+
+				marker2.setMap(map);
+				
+				var marker3=new google.maps.Marker({
+  				position:location3,
+  				});
+
+				marker3.setMap(map);
+				
+				var marker4=new google.maps.Marker({
+  				position:location4,
+  				});
+
+				marker4.setMap(map);
+				
+                // For dynamic location: try HTML5 geolocation.
                 if (navigator.geolocation) {
                   navigator.geolocation.getCurrentPosition(function(position) {
-                    var pos = {
+                    var currentLocation = {
                       lat: position.coords.latitude,
                       lng: position.coords.longitude
                     };
         
-                    infoWindow.setPosition(pos);
-                    infoWindow.setContent('Location found.');
-                    map.setCenter(pos);
+                    var marker5=new google.maps.Marker({
+						position:currentLocation,
+						});
+
+					marker5.setMap(map);
                   }, function() {
                     handleLocationError(true, infoWindow, map.getCenter());
                   });
+				  
                 } else {
                   // Browser doesn't support Geolocation
                   handleLocationError(false, infoWindow, map.getCenter());
