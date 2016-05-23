@@ -66,7 +66,7 @@
                   center: {lat: 52.23, lng: 4.554},
                   zoom: 8
                 });
-                var infoWindow = new google.maps.InfoWindow({map: map});
+                // var infoWindow = new google.maps.InfoWindow({map: map});
 				
 				//4 static locations as a placeholder
 				var location1 = new google.maps.LatLng(52.682395,6.184084);
