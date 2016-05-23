@@ -54,7 +54,7 @@
             <?php
             include "header.php"
             ?>
-            <div id="map" style= "height: 100%; "></div>
+            <div id="map" style= "height: 865px; "></div>
 			<script>
               // Note: This example requires that you consent to location sharing when
               // prompted by your browser. If you see the error "The Geolocation service
