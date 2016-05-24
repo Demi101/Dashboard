@@ -312,7 +312,10 @@ ul {list-style-type: none;}
     color: white !important
 }
 
-
+/* Button send message */
+.btn-send{
+  background-color: #57971f;
+}
 
 
 

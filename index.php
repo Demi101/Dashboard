@@ -7,6 +7,9 @@
 // }else{
 //     header('Location: login.php');
 // }
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="eng">
@@ -142,7 +145,13 @@
                             <input type="checkbox" id="switch4" class="switch" aria-hidden="false"><label for="switch4" class="switch-label">Checkbox Label</label><p>Carriere Groei</p>
                         </section>
                         <section class="berichten col-lg-6">
-                            <p>Berichten</p>
+                            <form action="" method="post">
+                            <input type="text" placeholder="Naam">
+                            <input type="text" placeholder="Bericht">
+                            <button type="submit" class="btn btn-primary btn-send">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            </button>
+                            </form>
                         </section>
                     </div>
                 </div>
