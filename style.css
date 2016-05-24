@@ -119,14 +119,16 @@ p{
   font-size: 22px;
     position: absolute;
     top: 30px;
-    margin-left: 85px;
+    /*margin-left: 85px;*/
+    margin-left: 30px;
   font-family: 'PT Sans', sans-serif!important;
 }
 .titel-2{
   font-size: 12px;
     position: absolute;
     top: 60px;
-    margin-left: 85px;
+    /*margin-left: 85px;*/
+    margin-left: 30px;
   font-family: 'PT Sans', sans-serif!important;
   opacity: .5;
 }
@@ -315,8 +317,15 @@ ul {list-style-type: none;}
 /* Button send message */
 .btn-send{
   background-color: #57971f;
+  -webkit-transition: background-color .5s; /* Safari */
+  transition: background-color .5s;
+  border: none;
 }
 
+.btn-send:hover{
+  background-color: #6ebe27;
+  border: none;
+}
 
 
 
