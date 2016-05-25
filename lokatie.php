@@ -76,24 +76,28 @@
 				
 				var marker1=new google.maps.Marker({
   				position:location1,
+  				icon: 'img/locatie_groen.png',
   				});
 
 				marker1.setMap(map);
 				
 				var marker2=new google.maps.Marker({
   				position:location2,
+  				icon: 'img/locatie_groen.png',
   				});
 
 				marker2.setMap(map);
 				
 				var marker3=new google.maps.Marker({
   				position:location3,
+  				icon: 'img/locatie_groen.png',
   				});
 
 				marker3.setMap(map);
 				
 				var marker4=new google.maps.Marker({
   				position:location4,
+  				icon: 'img/locatie_groen.png',
   				});
 
 				marker4.setMap(map);
@@ -108,6 +112,7 @@
         
                     var marker5=new google.maps.Marker({
 						position:currentLocation,
+						icon: 'img/locatie_groen.png',
 						});
 
 					marker5.setMap(map);
