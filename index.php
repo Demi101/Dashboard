@@ -1,14 +1,35 @@
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors',true);
+
+
 // // Start session and connect to database
 // session_start();
-// require 'connect.php';
+require 'connect.php';
 // // If session variable id not exists go to login.php
 // if(isset($_SESSION['id'])){
 // }else{
 //     header('Location: login.php');
 // }
 
+$emptyFields = 0;
 
+if(isset($_POST['send'])){
+
+    if(empty($_POST["name"]) || empty($_POST["message"])){
+        $emptyFields = 1;
+
+    }else{
+        // Define variables
+        $name = $_POST['name'];
+        $message = $_POST['message'];
+
+        $query = $con->query("INSERT INTO messages (name, message) VALUES ('{$name}', '{$message}')");
+
+    }
+
+}
 
 ?>
 <!DOCTYPE html>
@@ -145,13 +166,30 @@
                             <input type="checkbox" id="switch4" class="switch" aria-hidden="false"><label for="switch4" class="switch-label">Checkbox Label</label><p>Carrièregroei</p>
                         </section>
                         <section class="berichten col-lg-6">
-                            <form action="" method="post">
-                                <input type="text" placeholder="Naam">
-                                <input type="text" placeholder="Bericht">
-                                <button type="submit" class="btn btn-primary btn-send">
+                            <form class="formMessages" action="" method="post">
+                                <?php
+
+                                if($emptyFields == 1){
+
+                                    echo "<div class=\"alert alert-warning\">
+                                            <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
+                                            Vul alle velden in
+                                        </div>";
+                                }
+
+                                ?>
+                                <input id="i1" type="text" placeholder="Naam" name="name">
+                                <input id="i2" type="text" placeholder="Bericht" name="message">
+                                <button type="submit" name="send" class="btn btn-primary btn-send">
                                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                             </button>
                             </form>
+                            <p><b>Maarten</b><br>
+                            25 mei 2016 | 16.43<br>
+                            Leaserijders vriendelijk verzocht morgen bij mij langs te komen.</p>
+                            <p><b>Jannes</b><br>
+                            18 mei 2016 | 09.23<br>
+                            Vergadering zal plaatsvinden op 24 mei 17.00.</p>
                         </section>
                     </div>
                 </div>
