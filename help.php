@@ -22,6 +22,7 @@
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/help.css"  type="text/css">
 
     </head>
     <body>
@@ -52,6 +53,39 @@
         include "header.php"
 
         ?>
+        <div id="wrapper-chat">
+    <div id="menu">
+        <p class="welcome">Daimler Fleet Management</p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="chatbox"><?php
+if(file_exists("log.html") && filesize("log.html") > 0){
+    $handle = fopen("log.html", "r");
+    $contents = fread($handle, filesize("log.html"));
+    fclose($handle);
+     
+    echo $contents;
+}
+?></div>
+     
+            <form name="message" action="">
+                <input name="usermsg" type="text" id="usermsg" size="63" />
+                <input type="image" name="submitimg" id="submitmsg" src="img/send.png" alt="Submit details" />
+            </form>
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+        // jQuery Document
+        $(document).ready(function(){
+            $("#submitmsg").click(function(){
+		var clientmsg = $("#usermsg").val();
+		$.post("post.php", {text: clientmsg});
+		$("#usermsg").attr("value", "");
+		return false;
+	});    
+        });
+        </script>
         
         <div id="page-content-wrapper">
             <div class="container-fluid">

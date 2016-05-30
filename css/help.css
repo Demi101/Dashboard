@@ -1,0 +1,83 @@
+ 
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper-chat, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    width:100%;
+text-align: center;}
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:right;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:60vh;
+    width:80%;
+    border-top:1px solid #000;
+    overflow:auto; }
+
+#chatbox p {
+    line-height: 60px;
+    display: inline;
+    margin-right: 30px;
+    line-height: 60px;
+}
+
+#chatbox img{
+    float: right;
+}
+form{
+    width: 80%;
+        margin: 0 auto;
+}
+
+.chatfoto{
+    width: 60px;
+    height: auto;
+    border-radius: 60px;
+    float: right;
+}
+  
+#usermsg {
+    width: 60%;
+    padding: 24px 30px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submitmsg{
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 300px;
+}
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 10% 12.5px 10%; }
+  
+.welcome { float:left; font-family: 'PT Sans', sans-serif!important; font-size: 18px;}
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; float: right; display: block; width: 100%;}
