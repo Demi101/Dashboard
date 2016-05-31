@@ -9,6 +9,8 @@ $username = "root";
 $password = "root";
 $dbname = "daimler";
 
+//test text
+
 // >>>>>>> Stashed changes
 
 // Create connection
