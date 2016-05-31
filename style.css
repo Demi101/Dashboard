@@ -327,7 +327,41 @@ ul {list-style-type: none;}
   border: none;
 }
 
+/* Form messages */
+form.formMessges{
+  width: 100%;
 
+}
 
+form.formMessages input{
+  width: 100%;
+}
 
+form.formMessages #i1{
+  width: 18%;
+  margin: 2%;
+  padding: 0;
+  height: 40px;
+}
 
+<<<<<<< HEAD
+
+form.formMessages #i2{
+  width: 60%;
+  margin: 2%;
+  padding: 0;
+   height: 40px;
+}
+
+form .btn-send{
+  width: 8%;
+  margin: 2%;
+  padding: 0;
+   height: 40px;
+}
+
+.berichten p{
+  margin: 2%;
+  border-bottom: 1px solid lightgrey;
+}
+>>>>>>> origin/master
