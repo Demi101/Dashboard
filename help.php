@@ -69,7 +69,7 @@ if(file_exists("log.html") && filesize("log.html") > 0){
 }
 ?></div>
      
-            <form name="message" action="">
+            <form class="chatchat" name="message" action="">
                 <input name="usermsg" type="text" id="usermsg" size="63" />
                 <input type="image" name="submitimg" id="submitmsg" src="img/send.png" alt="Submit details" />
             </form>
