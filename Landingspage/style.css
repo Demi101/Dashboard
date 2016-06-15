@@ -2,12 +2,6 @@ body {
 	font-family: 'Myriad pro';
 }
 
-.vjs-default-skin .vjs-big-play-button {
-  margin-left: -@big-play-width/2;
-  margin-top: -@big-play-height/2;
-  left: 50%;
-  top: 50%;
-}
 
 .cam {
 	margin-left: 30%;
