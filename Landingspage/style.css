@@ -15,8 +15,6 @@ body {
 }
 
 #reclame{
-
-
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -25,6 +23,13 @@ body {
 #div {
 	position: absolute;
 	margin-top: -1.5%;
+}
+
+#can {
+  position: absolute;
+  width: 640px;
+  height: 480px;
+  margin-top: -1.5%;
 }
 
 .contact-top {
@@ -41,7 +46,7 @@ color: #6f7678;
 }
 
 #snap {
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 2%;
 	background-color:#589720;
 	-moz-border-radius:28px;
@@ -63,6 +68,56 @@ color: #6f7678;
 .snap:active {
 	position:relative;
 	top:1px;
+}
+
+#share {
+  margin-left: 75%;
+  margin-top: 2%;
+  background-color:#589720;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Verdana;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.share:hover {
+  background-color:#589720;
+}
+.share:active {
+  position:relative;
+  top:1px;
+}
+
+#opnieuw {
+  margin-left: -27%;
+  margin-top: 2%;
+  background-color:#D32F2F;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #D32F2F;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Verdana;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.opnieuw:hover {
+  background-color:#589720;
+}
+.opnieuw:active {
+  position:relative;
+  top:1px;
 }
 
 
