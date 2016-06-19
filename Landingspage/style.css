@@ -1,5 +1,10 @@
+@font-face {
+    font-family: corporate;
+    src: url('corporate-s-regular.ttf');
+}
+
 body {
-	font-family: 'Myriad pro';
+	font-family: corporate;
 }
 
 
@@ -57,7 +62,7 @@ color: #6f7678;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Verdana;
+	font-family: corporate;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
@@ -82,7 +87,7 @@ color: #6f7678;
   display:inline-block;
   cursor:pointer;
   color:#ffffff;
-  font-family:Verdana;
+  font-family: corporate;
   font-size:17px;
   padding:16px 31px;
   text-decoration:none;
@@ -107,7 +112,7 @@ color: #6f7678;
   display:inline-block;
   cursor:pointer;
   color:#ffffff;
-  font-family:Verdana;
+  font-family: corporate;
   font-size:17px;
   padding:16px 31px;
   text-decoration:none;
@@ -205,4 +210,8 @@ color: #6f7678;
 .switch:disabled + .switch-label:after {
   background: #bbbbbb;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+*{
+  font-family: corporate;
 }
