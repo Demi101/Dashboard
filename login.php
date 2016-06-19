@@ -1,44 +1,44 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors',true);
+// error_reporting(E_ALL);
+// ini_set('display_errors',true);
 
-// Starts the session and connects to the database.
-session_start();
-require 'connect.php';
+// // Starts the session and connects to the database.
+// session_start();
+// require 'connect.php';
 	
-$failLogin = 0;
+// $failLogin = 0;
 
-// If LOGIN button is clicked, login user by checking data or redirect to login page and give error.
-if(isset($_POST['login'])){
+// // If LOGIN button is clicked, login user by checking data or redirect to login page and give error.
+// if(isset($_POST['login'])){
 
-	// Save filled in data in variables and define an error variable
-	$username = $_POST['username'];
-	$password = $_POST['password'];
+// 	// Save filled in data in variables and define an error variable
+// 	$username = $_POST['username'];
+// 	$password = $_POST['password'];
 
-	// If email is invalid give error
-	if(!preg_match("/^[a-zA-Z ]*$/",$username)){
-		$failLogin = 1;
-	}else{
-		$result = $con->query("SELECT * FROM users WHERE username='$username' ");
-		$row = $result->fetch_array(MYSQLI_BOTH);
+// 	// If email is invalid give error
+// 	if(!preg_match("/^[a-zA-Z ]*$/",$username)){
+// 		$failLogin = 1;
+// 	}else{
+// 		$result = $con->query("SELECT * FROM users WHERE username='$username' ");
+// 		$row = $result->fetch_array(MYSQLI_BOTH);
 
-		// Save data from database in session variables
-		if(password_verify($password, $row['password'])){
-			$_SESSION['id'] = $row['id'];
-			$_SESSION['username'] = $_POST['username'];
-			$_SESSION['password'] = $_POST['password'];
-			$_SESSION['email'] = $row['email'];
+// 		// Save data from database in session variables
+// 		if(password_verify($password, $row['password'])){
+// 			$_SESSION['id'] = $row['id'];
+// 			$_SESSION['username'] = $_POST['username'];
+// 			$_SESSION['password'] = $_POST['password'];
+// 			$_SESSION['email'] = $row['email'];
 
-			// Redirect to index.php
-			header('Location: index.php');
-		}else{
-			$failLogin = 1;
-		}
-	}
+// 			// Redirect to index.php
+// 			header('Location: index.php');
+// 		}else{
+// 			$failLogin = 1;
+// 		}
+// 	}
 
 
-}
+// }
 
 ?>
 
@@ -72,7 +72,7 @@ if(isset($_POST['login'])){
 	<h1 class="titleLogIn">Daimler App</h1>
 	<div class="login-page">
   		<div class="form">
-			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class="login-form">
+			<form action="index.php" method="post" class="login-form">
 			<?php
 
 			if($failLogin == 1){

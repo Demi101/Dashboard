@@ -1,10 +1,15 @@
+@font-face {
+    font-family: corporate;
+    src: url('corporate-s-regular.ttf');
+}
+
 /* Algemeen */
 body{
-  font-family: 'PT Sans', sans-serif!important;
+  font-family: corporate, sans-serif!important;
 }
 
 p{
-  font-family: 'PT Sans', sans-serif!important;
+  font-family: corporate, sans-serif!important;
 }
 
 /* Navigatie */
@@ -27,7 +32,7 @@ p{
 
 /* Log in */
 .titleLogIn{
-  font font-family: 'PT Sans', sans-serif!important;
+  font-family: corporate, sans-serif!important;
   top: 0;
   width: 101%;
   color: white;
@@ -40,7 +45,7 @@ p{
 }
 
 .login-page {
-  font font-family: 'PT Sans', sans-serif!important;
+  font-family: corporate, sans-serif!important;
   width: 360px;
   padding: 3% 0 0;
   margin: 0 auto;
@@ -121,7 +126,7 @@ p{
     top: 30px;
     /*margin-left: 85px;*/
     margin-left: 30px;
-  font-family: 'PT Sans', sans-serif!important;
+  font-family: corporate, sans-serif!important;
 }
 .titel-2{
   font-size: 12px;
@@ -129,7 +134,7 @@ p{
     top: 60px;
     /*margin-left: 85px;*/
     margin-left: 30px;
-  font-family: 'PT Sans', sans-serif!important;
+  font-family: corporate, sans-serif!important;
   opacity: .5;
 }
 
@@ -441,7 +446,7 @@ form.chat{
   
 #menu { padding:12.5px 10% 12.5px 10%; }
   
-.welcome { float:left; font-family: 'PT Sans', sans-serif!important; font-size: 18px;}
+.welcome { float:left; font-family: corporate, sans-serif!important; font-size: 18px;}
   
 .logout { float:right; }
   
